@@ -77,3 +77,6 @@ with open('new_phonebook.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.DictWriter(file, fieldnames=titles)
     writer.writeheader()
     writer.writerows(new_contacts_list)
+
+if __name__ == '__main__':
+    pass
